@@ -1,4 +1,4 @@
-# 🌍 Builder Score: Dynamic P2P Lending & Web3 Credit Infrastructure
+# 🌍 Kredible:  is a P2P lending platform built on Stellar that uses on-chain reputation to adjust collateral and expand access to fair, inclusive credit.
 
 ## 🚫 The Problem
 
