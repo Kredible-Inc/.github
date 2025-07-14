@@ -1,4 +1,4 @@
-# 🌍 Builder Score: Web3 Credit Infrastructure for Financial Inclusion
+# 🌍 Builder Score: Web3 Credit Infrastructure & Dynamic P2P Lending
 
 ## 🚫 The Problem
 
@@ -12,17 +12,17 @@
 
 ---
 
-## 🛠️ Scope
+## 🛠️ Scope & Integrated P2P Lending Platform
 
-We are building a **credit scoring API** that calculates and exposes each user’s Builder Score from on-chain financial behavior.
+Our core product is a **credit scoring infrastructure**—an API that calculates and exposes each user’s Builder Score from on-chain financial behavior. 
 
-To demonstrate this, we will launch a **lightweight P2P lending demo platform** where:
+To showcase the power and integration of our system, we have built an **integrated P2P lending platform** where:
 
 - Lenders offer funds and earn interest.
-- Borrowers receive loans with dynamic collateral based on their score.
+- Borrowers receive loans with **dynamic collateral requirements**—the Loan-to-Value (LTV) ratio is determined by their Builder Score.
 - Each successful repayment improves the user’s score, reducing future collateral needs.
 
-> Our core product is the **credit score infrastructure**—not the lending itself. Other DeFi platforms can integrate our API to enrich their risk models.
+> The P2P lending platform serves as a live demonstration and reference implementation. Any DeFi or lending protocol can integrate our scoring API to enrich their own risk models and offer dynamic, merit-based lending terms.
 
 ---
 
@@ -61,7 +61,7 @@ To demonstrate this, we will launch a **lightweight P2P lending demo platform** 
 We build on **Soroban** (Stellar’s smart contract platform) with two core contracts:
 
 1. **Lending Contract:**
-   - Manages P2P lending, enforces dynamic LTV ratios per user based on Builder Score.
+   - Manages P2P lending, enforces **dynamic LTV ratios per user** based on Builder Score.
 2. **Credit History Contract:**
    - Records loan outcomes (repayments, defaults, late payments), calculates Builder Score, and updates allowed LTV in the lending contract.
 
@@ -88,9 +88,10 @@ All logic is on-chain, transparent, and interoperable for any protocol integrati
 
 - **Merit-based, decentralized credit scoring** for Web3
 - **API-first**: Easy integration for any DeFi platform
+- **Integrated P2P lending demo**: Showcases real-world use and dynamic LTV
 - **Financial inclusion**: Unlocks credit for the unbanked and underbanked
 - **Transparent, on-chain logic**: Trustless and verifiable
 
 ---
 
-> **Builder Score**: Powering the next generation of inclusive, trust-based finance on Web3.
+> **Builder Score**: Powering the next generation of inclusive, trust-based finance on Web3—with dynamic lending powered by reputation.
